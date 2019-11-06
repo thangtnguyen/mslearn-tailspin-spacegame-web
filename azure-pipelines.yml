@@ -15,7 +15,7 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
-- task: UseDontNet@2
+- task: UseDotNet@2
   displayName: 'Use .NET Core SDK 2.1.505'
   inputs:
     packageType: sdk
